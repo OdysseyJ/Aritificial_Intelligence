@@ -1,0 +1,3 @@
+>Genetic Algorithm
+12 9 16 8 0 21 3 27 23 18 14 10 4 7 25 2 29 20 1 19 22 28 13 24 6 11 15 5 26 17 
+Total Elapsed Time : 0.404
