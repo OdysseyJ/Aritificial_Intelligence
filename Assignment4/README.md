@@ -32,15 +32,14 @@ Programming Assignment4
 * __입력 형식__
  * console에 특정 N값을 입력한다.
 
-
-![스크린샷_2019-11-03_오후_12.04.11](/uploads/2322e1f5f02c453d576d4875e8666719/스크린샷_2019-11-03_오후_12.04.11.png)
+<img width="55" alt="스크린샷 2019-11-03 오후 12 04 11" src="https://user-images.githubusercontent.com/23691933/68103132-f10d7600-ff18-11e9-9a33-d8da89d4669e.png">
 
 
 * __출력 형식__
  * 1차원 배열로 queen의 위치를 표시하고 위치는 1부터 N으로 표시
  * 마지막에 elapsed time을 적어준다.
-
-![스크린샷_2019-11-04_오후_2.39.11](/uploads/2decf9716a96a645c34a5d4a8b21e31f/스크린샷_2019-11-04_오후_2.39.11.png)
+ 
+<img width="514" alt="스크린샷 2019-11-04 오후 2 39 11" src="https://user-images.githubusercontent.com/23691933/68103138-f23ea300-ff18-11e9-910a-4f8a7dc13717.png">
 
 **3. 사용언어 / 환경**
 
@@ -53,25 +52,24 @@ Programming Assignment4
 
 {+ nQueens.py +}
 
-![스크린샷_2019-11-04_오후_2.39.11](/uploads/670e90a64fb602f3e2670f8fff1b0c7c/스크린샷_2019-11-04_오후_2.39.11.png)
+<img width="514" alt="스크린샷 2019-11-04 오후 2 39 11" src="https://user-images.githubusercontent.com/23691933/68103138-f23ea300-ff18-11e9-910a-4f8a7dc13717.png">
 
 {+ nQueensnative.py +}
 
-![스크린샷_2019-11-03_오후_12.04.11](/uploads/c8578ccfb528e882c1a986d4df3db0fd/스크린샷_2019-11-03_오후_12.04.11.png)
+<img width="55" alt="스크린샷 2019-11-03 오후 12 04 11" src="https://user-images.githubusercontent.com/23691933/68103132-f10d7600-ff18-11e9-9a33-d8da89d4669e.png">
 
 
-![스크린샷_2019-11-03_오후_12.04.15](/uploads/120ffcbb411859b5013048d844132ae7/스크린샷_2019-11-03_오후_12.04.15.png)
+<img width="302" alt="스크린샷 2019-11-03 오후 12 04 15" src="https://user-images.githubusercontent.com/23691933/68103133-f10d7600-ff18-11e9-9f44-b4c78da21996.png">
 
 **[결과에 대한 분석]**
 
 
 내가 계산한 결과가 맞는지에 대한 분석은 Assignment1 과제의 nqueen 만족  여부를 구하는 function을 이용했다.
 
+<img width="565" alt="스크린샷 2019-11-04 오후 3 05 44" src="https://user-images.githubusercontent.com/23691933/68103141-f2d73980-ff18-11e9-9d68-26729a18d4df.png">
 
-![스크린샷_2019-11-04_오후_3.05.44](/uploads/f642254928cd4ddab9e72afdf76f8ba7/스크린샷_2019-11-04_오후_3.05.44.png)
 
-
-![스크린샷_2019-11-04_오후_3.05.03](/uploads/b8769adc6e107fe6962ed43b73713990/스크린샷_2019-11-04_오후_3.05.03.png)
+<img width="454" alt="스크린샷 2019-11-04 오후 3 05 03" src="https://user-images.githubusercontent.com/23691933/68103140-f2d73980-ff18-11e9-9672-ca17d0edfbe3.png">
 
 
 내가 만든 코드는 n=20에 대해 0.18초정도만에 계산이 가능하지만,
@@ -86,16 +84,16 @@ __Optimization방법__ : 이중 배열에 대해 queen을 정의하면 모델을
 __N에따른성능증가__ : nQueensnative는 n이 낮은 숫자일때는 비슷한 성능을 보이지만, n이 증가함에 따라 성능이 엄청나게 감소했다. 그에 비해 내가 구현한 nQueens는 n=100에서도 실행이 될만큼 증가 폭이 많이 크지 않았다. 아마 1차원 배열로 선언했고, 중복을 제거했기 때문에 그런듯 하다.
 
 [n==5]
-![스크린샷_2019-11-04_오전_1.30.05](/uploads/99497f44fb5b467ceb2607f8a2a32bc9/스크린샷_2019-11-04_오전_1.30.05.png)
+<img width="390" alt="스크린샷 2019-11-04 오전 1 30 05" src="https://user-images.githubusercontent.com/23691933/68103135-f1a60c80-ff18-11e9-859d-aa567ad46bfb.png">
 
 [n==10]
-![스크린샷_2019-11-04_오전_1.30.30](/uploads/4e4a9d490f3e6929dcbd92346a225cde/스크린샷_2019-11-04_오전_1.30.30.png)
+<img width="385" alt="스크린샷 2019-11-04 오전 1 30 30" src="https://user-images.githubusercontent.com/23691933/68103136-f1a60c80-ff18-11e9-83bd-5dbe9e7cec8e.png">
 
 [n==15]
-![스크린샷_2019-11-04_오전_1.31.17](/uploads/9469aa15bc41e7599920412f52199cd9/스크린샷_2019-11-04_오전_1.31.17.png)
+<img width="407" alt="스크린샷 2019-11-04 오전 1 31 17" src="https://user-images.githubusercontent.com/23691933/68103137-f23ea300-ff18-11e9-80cb-33baa7ece6a1.png">
 
 [n==100]
-![스크린샷_2019-11-04_오후_3.02.39](/uploads/ec87183e2f9319bd719c2eeb9c643914/스크린샷_2019-11-04_오후_3.02.39.png)
+<img width="555" alt="스크린샷 2019-11-04 오후 3 02 39" src="https://user-images.githubusercontent.com/23691933/68103139-f23ea300-ff18-11e9-8508-389f3416abf6.png">
 
 
 **[전체 소스코드]**
